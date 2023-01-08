@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
@@ -25,6 +27,7 @@
         <button type="button">Online-booking</button>
     </header>
     <main>
+    <div class="container">
         <section class="hero">
             <p class="hero__paragraph">A hair salon for men in Kyiv</p>
             <h1 class="hero__title">BarberShop</h1>
@@ -35,20 +38,27 @@
                     <li><a class="hero__social-link-item" href="" rel="noopener noreferren nofollow">Youtube</a></li>
                 </ul>
         </section>
-        <section>
-            <p>About</p>
-            <h2>Best Barbershop in your city</h2>
-            <p>If you want to add more confidence to your image, you should definitely visit us.</p>
-            <p>We are a team that never stops at what has been achieved and are thirsty for changes. 
+    </div>
+    <div class="container">
+        <section class="section about">
+            <div class="about__position">
+                <div class="about__bosition-text-contant">
+            <p class="about__paragraph">About</p>
+            <h2 class="about__title">Best Barbershop in your city</h2>
+            <p class="about__paragraph-two">If you want to add more confidence to your image, you should definitely visit us.</p>
+            <p class="about__paragraph-three">We are a team that never stops at what has been achieved and are thirsty for changes. 
                 And when you fall into the hands of our master, you will never be the same again. 
                 We are a team that is always "on the same wave" with clients. 
                 Therefore, we are always ready to improve everyone who comes to us!</p>
-            <button type="button">ONLINE-BOOKING</button>
-            <ul>
-                <li><img src="./images/img1.jpg" width="270" height="445" alt="burber"></li>
-                <li><img src="./images/img2.jpg" width="270" height="445" alt="burber-2"></li>
+            <button class="about__button" type="button">ONLINE-BOOKING</button>
+                </div>
+            <ul class="about__photo-list">
+                <li class="about__photo-list-items"><img src="./images/img1.jpg" width="270" height="445" alt="burber"></li>
+                <li class="about__photo-list-items"><img src="./images/img2.jpg" width="270" height="445" alt="burber-2"></li>
             </ul>
+            </div>
         </section>
+    </div>
         <section>
             <p>Spend your time with the best masters</p>
             <h2>Services and prices</h2>
